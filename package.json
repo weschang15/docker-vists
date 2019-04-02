@@ -1,0 +1,25 @@
+{
+  "name": "vcounter",
+  "version": "1.0.0",
+  "description": "Docker practice application that counts page visits",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weschang15/docker-vists.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weschang15/docker-vists/issues"
+  },
+  "homepage": "https://github.com/weschang15/docker-vists#readme",
+  "dependencies": {
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+  }
+}
